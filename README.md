@@ -29,12 +29,12 @@ Hinzufügen/Entfernen eines Elements</br>
 
 <h1>Wunsch-Kriterien</h1>
 
-Die Menge der Lebensmittel sollte automatisch aktualisiert werden</br>
-Die Benachrichtigungen sollen bei Lebensmittelknappheit automatisch erstellt werden</br>
-Jeder Benutzer hat die Möglichkeit, ein Profil zu erstellen, in dem er Lieblingsessen und andere Funktionen ablegen kann.</br>
++Die Menge der Lebensmittel sollte automatisch aktualisiert werden</br>
++Die Benachrichtigungen sollen bei Lebensmittelknappheit automatisch erstellt werden</br>
++Jeder Benutzer hat die Möglichkeit, ein Profil zu erstellen, in dem er Lieblingsessen und andere Funktionen ablegen kann.</br>
 
 <h1>Abgrenzungs-Kriterien</h1>
 
-Nur der "SuperUser" hat die Berechtigung, ein Konto hinzuzufügen, zu ändern oder zu entfernen.</br>
-Nur ein "SuperUser" kann ein Produkt hinzufügen, ändern oder löschen.</br>
-Nur ein "SuperUser" kann ein anderes Konto als "SuperUser" kennzeichnen.</br>
++Nur der "SuperUser" hat die Berechtigung, ein Konto hinzuzufügen, zu ändern oder zu entfernen.</br>
++Nur ein "SuperUser" kann ein Produkt hinzufügen, ändern oder löschen.</br>
++Nur ein "SuperUser" kann ein anderes Konto als "SuperUser" kennzeichnen.</br>
