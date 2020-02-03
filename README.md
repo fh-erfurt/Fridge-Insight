@@ -7,22 +7,22 @@ Fridge-Insight ist eine Software, mit der Sie Ihren Kühlschrank besser verwalte
 # Muss-Kriterien
 
 ## Das System muss die Möglichkeiten bieten:</br>
-Benutzer zu verwalten.</br>
- 3.Konto addieren</br>
+### Benutzer zu verwalten.</br>
+ 1.Konto addieren</br>
  2.Konto bearbeiten</br>
  3.Konto entfernen</br>
 
-## Benachrichtigungen zu konfigurieren</br>
+### Benachrichtigungen zu konfigurieren</br>
  1.Benachrichtigungen erstellen</br>
  2.Benachrichtigungen bearbeiten</br>
  3.Benachrichtigungen entfernen</br>
 
-## Einkauf Liste zu verwalten</br>
+### Einkauf Liste zu verwalten</br>
  1.Einkaufskorb erstellen</br>
  2.Element zum Einkaufskorb hinzufügen</br>
  3.Element vom Einkaufskorb entfernen</br>
 
-## Hinzufügen/Entfernen eines Elements</br>
+### Hinzufügen/Entfernen eines Elements</br>
  1.Produkt addieren</br>
  2.Produkt bearbeiten</br>
  3.Produkt entfernen</br>
@@ -38,5 +38,7 @@ Benutzer zu verwalten.</br>
 3.Nur der "SuperUser" hat die Berechtigung, ein Konto hinzuzufügen, zu ändern oder zu entfernen.</br>
 2.Nur ein "SuperUser" kann ein Produkt hinzufügen, ändern oder löschen.</br>
 1.Nur ein "SuperUser" kann ein anderes Konto als "SuperUser" kennzeichnen.</br>
+
+# UML Diagram
 
 ![UML Diagram](Sonstiges/Bilder/UML.jpg)
