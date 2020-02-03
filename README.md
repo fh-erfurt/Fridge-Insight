@@ -8,7 +8,7 @@ Fridge-Insight ist eine Software, mit der Sie Ihren Kühlschrank besser verwalte
 
 ## Das System muss die Möglichkeiten bieten:</br>
 Benutzer zu verwalten.</br>
- 1.Konto addieren</br>
+ 3.Konto addieren</br>
  2.Konto bearbeiten</br>
  3.Konto entfernen</br>
 
