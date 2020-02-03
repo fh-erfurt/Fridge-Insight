@@ -35,9 +35,9 @@ Fridge-Insight ist eine Software, mit der Sie Ihren Kühlschrank besser verwalte
 
 # Abgrenzungs-Kriterien
 
-3.Nur der "SuperUser" hat die Berechtigung, ein Konto hinzuzufügen, zu ändern oder zu entfernen.</br>
+1.Nur der "SuperUser" hat die Berechtigung, ein Konto hinzuzufügen, zu ändern oder zu entfernen.</br>
 2.Nur ein "SuperUser" kann ein Produkt hinzufügen, ändern oder löschen.</br>
-1.Nur ein "SuperUser" kann ein anderes Konto als "SuperUser" kennzeichnen.</br>
+3.Nur ein "SuperUser" kann ein anderes Konto als "SuperUser" kennzeichnen.</br>
 
 # UML Diagram
 
