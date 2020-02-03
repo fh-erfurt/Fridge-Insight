@@ -42,3 +42,9 @@ Fridge-Insight ist eine Software, mit der Sie Ihren Kühlschrank besser verwalte
 # UML Diagram
 
 ![UML Diagram](Sonstiges/Bilder/UML.jpg)
+
+# UML Diagram mit Test Klassen
+
+![UML Diagram](Sonstiges/Bilder/diagramTestver.jpg)
+
+
