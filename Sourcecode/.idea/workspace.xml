@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4234c277-ca69-4dc7-95d2-29220ae9e70e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UT0PVWduE6dPVBnqVlrYuTJRf6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in Fridge-Insight">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fridge-Insight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Fridge-Insight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fridge-Insight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartTest.setShoppingCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fridge-Insight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingCartTest" />
+      <option name="METHOD_NAME" value="setShoppingCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserListTest.setUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fridge-Insight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserListTest" />
+      <option name="METHOD_NAME" value="setUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserListTest.superUserDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fridge-Insight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserListTest" />
+      <option name="METHOD_NAME" value="superUserDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in Fridge-Insight" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.UserListTest.setUsers" />
+        <item itemvalue="JUnit.UserListTest.superUserDelete" />
+        <item itemvalue="JUnit.ShoppingCartTest.setShoppingCart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4234c277-ca69-4dc7-95d2-29220ae9e70e" name="Default Changelist" comment="" />
+      <created>1575365254030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575365254030</updated>
+      <workItem from="1575365258203" duration="344000" />
+      <workItem from="1575365617203" duration="166000" />
+      <workItem from="1575699589106" duration="3361000" />
+      <workItem from="1575702968521" duration="13633000" />
+      <workItem from="1575821327185" duration="2689000" />
+      <workItem from="1578315732890" duration="2719000" />
+      <workItem from="1578331673791" duration="11507000" />
+      <workItem from="1578388258930" duration="2259000" />
+      <workItem from="1578397538634" duration="364000" />
+      <workItem from="1578871683636" duration="99000" />
+      <workItem from="1578920779860" duration="1068000" />
+      <workItem from="1579200727052" duration="9188000" />
+      <workItem from="1579285794321" duration="7881000" />
+      <workItem from="1579483057934" duration="1788000" />
+      <workItem from="1579554670034" duration="12316000" />
+      <workItem from="1579738162673" duration="1853000" />
+      <workItem from="1579743137443" duration="5410000" />
+      <workItem from="1579809358035" duration="8321000" />
+      <workItem from="1580248748265" duration="2063000" />
+      <workItem from="1580629472810" duration="716000" />
+      <workItem from="1580630331746" duration="12491000" />
+      <workItem from="1580643265121" duration="1048000" />
+      <workItem from="1580646628255" duration="1547000" />
+      <workItem from="1580655160253" duration="9179000" />
+      <workItem from="1580665450513" duration="619000" />
+      <workItem from="1580666982741" duration="2858000" />
+      <workItem from="1580714996797" duration="43000" />
+      <workItem from="1580721839786" duration="3836000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="557" y="186" key="#NotificationFoodTest" timestamp="1579484331774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="186" key="#NotificationFoodTest/0.0.1920.1040@0.0.1920.1040" timestamp="1579484331774" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1580643069415">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580643069415" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579559603148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579559603148" />
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575721768350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="533" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1575721768350" />
+    <state x="708" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1580665728599">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580665728599" />
+    <state x="-1155" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1578337545368">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1155" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578337545368" />
+    <state x="499" y="171" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1575723282650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="171" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1575723282650" />
+    <state x="756" y="378" width="410" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580669179774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="378" width="410" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1580669179774" />
+    <state x="817" y="222" key="#xdebugger.evaluate" timestamp="1579559706844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1579559706844" />
+    <state x="655" y="223" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580670526358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="223" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1580670526358" />
+    <state x="468" y="0" key="Diagram.Print.Preview.Dialog" timestamp="1580727352479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="0" key="Diagram.Print.Preview.Dialog/0.0.1536.824@0.0.1536.824" timestamp="1580727352479" />
+    <state x="585" y="95" key="Diagram.Print.Preview.Dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580660394092" />
+    <state x="549" y="138" key="FileChooserDialogImpl" timestamp="1580723159214">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580723159214" />
+    <state x="686" y="174" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580669913429" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1580670602148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1578335488526">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578335488526" />
+    <state width="1876" height="328" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578343280468" />
+    <state width="1493" height="99" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578390522262" />
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580670602148" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1580670602148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="304" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1578335488526">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="304" key="GridCell.Tab.0.center.inPresentationMode/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578335488526" />
+    <state width="1876" height="328" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578343280468" />
+    <state width="1493" height="99" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578390522262" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580670602148" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1580670602148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="304" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1578335488526">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="304" key="GridCell.Tab.0.left.inPresentationMode/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578335488526" />
+    <state width="1876" height="328" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578343280468" />
+    <state width="1493" height="99" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578390522262" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580670602148" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1580670602148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="304" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1578335488526">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="304" key="GridCell.Tab.0.right.inPresentationMode/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578335488526" />
+    <state width="1876" height="328" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578343280468" />
+    <state width="1493" height="99" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578390522262" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580670602148" />
+    <state width="1877" height="156" key="GridCell.Tab.1.bottom" timestamp="1579748643978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="156" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579748643978" />
+    <state width="1877" height="156" key="GridCell.Tab.1.center" timestamp="1579748643978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="156" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579748643978" />
+    <state width="1877" height="156" key="GridCell.Tab.1.left" timestamp="1579748643978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="156" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579748643978" />
+    <state width="1877" height="156" key="GridCell.Tab.1.right" timestamp="1579748643978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="156" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579748643978" />
+    <state x="253" y="0" width="1139" height="824" key="SettingsEditor" timestamp="1580725835888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="253" y="0" width="1139" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580725835888" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580659963281" />
+    <state x="769" y="297" key="chooseDestDirectoryDialog" timestamp="1580668828101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580668828101" />
+    <state x="588" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1578331676905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="470" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578315739521" />
+    <state x="588" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578331676905" />
+    <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575722184341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1575722184341" />
+    <state x="675" y="144" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580642962301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1575723955081" />
+    <state x="675" y="144" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580642962301" />
+    <state x="352" y="140" key="new project wizard" timestamp="1580665642946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580665642946" />
+    <state x="341" y="183" key="run.anything.popup" timestamp="1580728862033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1580728862033" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1580663278119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1777" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578341900755" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580663278119" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

@@ -3,27 +3,101 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="561.0">Account</node>
-    <node x="356.0" y="853.0">NotificationFood</node>
-    <node x="438.0" y="1211.0">SuperMarket</node>
-    <node x="0.0" y="853.0">PurchaseList</node>
-    <node x="636.0" y="853.0">ShoppingCart</node>
-    <node x="767.0" y="0.0">Address</node>
-    <node x="0.0" y="1211.0">NotificationFoodList</node>
-    <node x="42.5" y="-3.333333333333343">Person</node>
-    <node x="1062.0" y="0.0">UserList</node>
-    <node x="433.0" y="0.0">Food</node>
+    <node x="484.0" y="1572.0">Purchase.PurchaseList</node>
+    <node x="308.4166666666668" y="495.0">User.Person</node>
+    <node x="875.0833333333334" y="627.0">Food.SuperMarket</node>
+    <node x="256.33333333333337" y="1155.0">User.Account</node>
+    <node x="905.0059523809524" y="1946.0">Food.NotificationFoodList</node>
+    <node x="0.0" y="1561.0">User.UserList</node>
+    <node x="859.5833333333334" y="0.0">Food.Address</node>
+    <node x="945.75" y="1572.0">Food.NotificationFood</node>
+    <node x="838.5833333333334" y="1056.0">Food.Food</node>
+    <node x="405.0059523809524" y="1946.0">Purchase.ShoppingCart</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="Account" target="Person">
-      <point x="0.0" y="-123.5" />
-      <point x="0.0" y="255.5" />
+    <edge source="Purchase.ShoppingCart" target="User.Account">
+      <point x="-180.0" y="-123.5" />
+      <point x="465.0059523809524" y="1921.0" />
+      <point x="473.5" y="1921.0" />
+      <point x="473.5" y="1541.0" />
+      <point x="452.83333333333337" y="1541.0" />
+      <point x="0.0" y="123.5" />
+    </edge>
+    <edge source="User.UserList" target="User.Account">
+      <point x="154.33333333333326" y="-167.5" />
+      <point x="385.83333333333326" y="1541.0" />
+      <point x="396.69047619047615" y="1541.0" />
+      <point x="-56.142857142857224" y="123.5" />
+    </edge>
+    <edge source="User.Account" target="User.Person">
+      <point x="98.25000000000011" y="-123.5" />
+      <point x="551.0833333333335" y="1031.0" />
+      <point x="538.6666666666667" y="1031.0" />
+      <point x="76.75" y="255.5" />
+    </edge>
+    <edge source="Purchase.ShoppingCart" target="Food.Food">
+      <point x="180.0" y="-123.5" />
+      <point x="825.0059523809524" y="1921.0" />
+      <point x="841.3342490842491" y="1921.0" />
+      <point x="841.3342490842491" y="1541.0" />
+      <point x="943.2261904761906" y="1541.0" />
+      <point x="-41.85714285714283" y="222.5" />
+    </edge>
+    <edge source="Food.NotificationFoodList" target="Food.NotificationFood">
+      <point x="-132.66666666666663" y="-123.5" />
+      <point x="971.3392857142858" y="1921.0" />
+      <point x="1004.75" y="1921.0" />
+      <point x="-59.0" y="156.5" />
+    </edge>
+    <edge source="Food.NotificationFoodList" target="Food.Food">
+      <point x="132.66666666666663" y="-123.5" />
+      <point x="1236.672619047619" y="1921.0" />
+      <point x="1192.25" y="1921.0" />
+      <point x="1192.25" y="1531.0" />
+      <point x="1110.654761904762" y="1531.0" />
+      <point x="125.57142857142856" y="222.5" />
+    </edge>
+    <edge source="Food.SuperMarket" target="Food.Address">
+      <point x="-73.33333333333331" y="-123.5" />
+      <point x="911.75" y="470.0" />
+      <point x="901.4166666666667" y="470.0" />
+      <point x="-83.66666666666669" y="222.5" />
+    </edge>
+    <edge source="Purchase.ShoppingCart" target="Purchase.PurchaseList">
+      <point x="-60.0" y="-123.5" />
+      <point x="585.0059523809524" y="1921.0" />
+      <point x="561.75" y="1921.0" />
+      <point x="-77.75" y="156.5" />
+    </edge>
+    <edge source="Food.NotificationFood" target="Food.Food">
+      <point x="78.66666666666669" y="-156.5" />
+      <point x="1142.4166666666667" y="1541.0" />
+      <point x="1068.797619047619" y="1541.0" />
+      <point x="83.71428571428572" y="222.5" />
+    </edge>
+    <edge source="Purchase.PurchaseList" target="User.Account">
+      <point x="-124.39999999999998" y="-156.5" />
+      <point x="515.1" y="1541.0" />
+      <point x="508.9761904761905" y="1541.0" />
+      <point x="56.14285714285711" y="123.5" />
+    </edge>
+    <edge source="Food.Food" target="Food.SuperMarket">
+      <point x="-97.66666666666669" y="-222.5" />
+      <point x="887.4166666666667" y="1031.0" />
+      <point x="911.75" y="1031.0" />
+      <point x="-73.33333333333331" y="123.5" />
+    </edge>
+    <edge source="Purchase.PurchaseList" target="Food.Food">
+      <point x="124.39999999999998" y="-156.5" />
+      <point x="763.9" y="1531.0" />
+      <point x="901.3690476190477" y="1531.0" />
+      <point x="-83.7142857142857" y="222.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.9" x="881.1111111111111" y="633.2222222222222" />
+  <settings layout="Hierarchic Group" zoom="0.8" x="693.3333333333334" y="1593.2222222222222" />
   <SelectedNodes>
-    <node>Person</node>
+    <node>User.Person</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

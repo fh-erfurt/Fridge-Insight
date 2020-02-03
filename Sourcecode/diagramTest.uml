@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="911.0" y="1493.0">UserListTest</node>
+    <node x="0.0" y="1053.0">Purchase.PurchaseList</node>
+    <node x="56.5" y="0.0">User.Person</node>
+    <node x="981.0" y="1849.0">SuperMarketTest</node>
+    <node x="572.0" y="1493.0">Food.SuperMarket</node>
+    <node x="0.0" y="697.0">User.Account</node>
+    <node x="1100.0" y="1053.0">FoodTest</node>
+    <node x="0.0" y="1493.0">Food.NotificationFoodList</node>
+    <node x="1380.0" y="0.0">User.UserList</node>
+    <node x="1000.0" y="0.0">Food.Address</node>
+    <node x="567.0" y="0.0">Food.Food</node>
+    <node x="462.0" y="1053.0">Food.NotificationFood</node>
+    <node x="695.0" y="1849.0">AccountTest</node>
+    <node x="819.0" y="1053.0">AddressTest</node>
+    <node x="1373.0" y="1053.0">Purchase.ShoppingCart</node>
+    <node x="1525.0" y="1493.0">NotificationFoodTest</node>
+    <node x="352.0" y="1849.0">NotificationFoodListTest</node>
+    <node x="0.0" y="1849.0">ShoppingCartTest</node>
+    <node x="1202.0" y="1493.0">PurchaseListTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="User.Account" target="User.Person">
+      <point x="0.0" y="-155.5" />
+      <point x="0.0" y="323.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="1230.999999999999" y="2223.999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
