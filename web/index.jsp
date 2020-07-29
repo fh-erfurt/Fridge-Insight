@@ -7,10 +7,10 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+  <title>Spring 3.0 MVC Series: Index - ViralPatel.net</title>
+</head>
+<body>
+<p>Say Hello</p>
+</body>
 </html>
