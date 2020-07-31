@@ -28,8 +28,14 @@ public class PersonsController {
     @RequestMapping("/formPerson")
     //public ModelAndView formPerson() {
     public String formPerson() {
-        return "Pages/formPerson.jsp";
+        return "formPerson";
        // return new ModelAndView("formPerson.jsp");
     }
 
+    @RequestMapping("/")
+    //public ModelAndView formPerson() {
+    public String index() {
+        return "index";
+        // return new ModelAndView("formPerson.jsp");
+    }
 }
