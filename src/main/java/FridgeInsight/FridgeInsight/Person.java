@@ -11,7 +11,7 @@ public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long PesonID;
+    private Long PersonID;
 
     @Column
     private String firstName; //this variable designate the first name of the user
@@ -179,12 +179,12 @@ public class Person {
         return this.account;
     }
 
-    public void setPesonID(Long pesonID) {
-        PesonID = pesonID;
+    public void setPersonID(Long personID) {
+        PersonID = personID;
     }
 
-    public Long getPesonID() {
-        return PesonID;
+    public Long getPersonID() {
+        return PersonID;
     }
 
 
