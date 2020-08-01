@@ -21,8 +21,7 @@ public class PersonsController {
     public String addPerson(Person person) {
 
         personRepository.save(person);
-        return "person saved";
-
+        return "index";
     }
 
     @RequestMapping("/formPerson")

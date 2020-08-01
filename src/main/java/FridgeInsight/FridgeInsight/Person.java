@@ -6,29 +6,29 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "PERSON")
+@Table
 public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long PesonID;
 
-    @Column(name = "firstName")
+    @Column
     private String firstName; //this variable designate the first name of the user
 
-    @Column(name = "lastName")
+    @Column
     private String lastName; // this variable designate the last name of the user
 
-    @Column(name = "Age")
+    @Column
     private int Age; // this variable designate the age of the user
 
-    @Column(name = "Height")
+    @Column
     private float Height; // this variable designate the height of the user
 
-    @Column(name = "superUser")
+    @Column
     private boolean superUser; // this variable designate the clearance of the user
 
-    @Column(name = "familyPosition")
+    @Column
     private String familyPosition; // this variable designate the family position of the user
 
 
