@@ -7,7 +7,7 @@
 <body>
 <div class="login-box">
     <h1>New Person</h1>
-    <form action ="addPerson">
+    <form action ="addPerson" method ="POST">
         <div class="user-box">
             <input type="number" id="age" name="age" required>
             <label for="age">Age</label>

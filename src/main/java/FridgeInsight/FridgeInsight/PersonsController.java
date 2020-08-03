@@ -19,8 +19,7 @@ public class PersonsController {
 
     @RequestMapping("/addPerson")
     public String addPerson(Person person) {
-
-
+        Person p1 = new Person();
         personRepository.save(person);
         return "addAccount";
     }
