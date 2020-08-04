@@ -5,6 +5,6 @@
   <title>Spring 3.0 MVC Series: Index - ViralPatel.net</title>
 </head>
 <body>
-
+success
 </body>
 </html>

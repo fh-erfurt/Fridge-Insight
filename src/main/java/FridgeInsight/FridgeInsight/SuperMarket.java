@@ -19,25 +19,34 @@ import java.util.List;
 
 
 @Entity
-@Table(name = "SuperMarket")
+@Table()
 public class SuperMarket {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long MarketID;
+    private Long marketID;
 
-    @Column(name = "marketName")
+    @Column
     private String marketName; //this variable designate the name of the supermarket
 
+    @Column
+    private int houseNumber; // this variable designate the number of the house
+
+    @Column
+    private String streetName; // this variable designate the number of the street
+
+    @Column
+    private String city; // this variable designate the City
+
+    @Column
+    private String state; // this variable designate the state
+
+    @Column
+    private int postalCode; // this variable designate the postal code
 
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "supermarket")
     @JsonManagedReference
     private List<Food> foodList;
 
-
-    @OneToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL, optional = false)
-    @JoinColumn(name = "Address_ID", nullable = false)
-    @JsonBackReference
-    private Address address; //this variable designate the address of the supermarket
 
     /**
      * the construtor of the class SuperMarket, where all the variables are set to null.
@@ -48,9 +57,19 @@ public class SuperMarket {
     /**
      * the overloaded constructor of the class SuperMarket, where each variabble is set to a certain variable.
      *
-     * @param marketName the name of the supermarket
+     * @param houseNumber the number of the house
+     * @param streetName  the name of the street
+     * @param city        the name of the city
+     * @param state       the name of the state
+     * @param postalCode  the postal code
+     * @param marketName  the name of the supermarket
      */
-    public SuperMarket(String marketName) {
+    public SuperMarket(String marketName, int houseNumber, String streetName, String city, String state, int postalCode) {
+        this.city = city;
+        this.houseNumber = houseNumber;
+        this.postalCode = postalCode;
+        this.streetName = streetName;
+        this.state = state;
         this.marketName = marketName;
     }
 
@@ -74,19 +93,11 @@ public class SuperMarket {
     }
 
     public Long getMarketID() {
-        return MarketID;
+        return marketID;
     }
 
     public void setMarketID(Long marketID) {
-        MarketID = marketID;
-    }
-
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
+        this.marketID = marketID;
     }
 
     public List<Food> getFoodList() {
@@ -96,4 +107,98 @@ public class SuperMarket {
     public void setFoodList(List<Food> foodList) {
         this.foodList = foodList;
     }
+
+
+    /**
+     * get the name of the state
+     *
+     * @return the name of the state
+     */
+    public String getState() {
+        return state;
+    }
+
+    /**
+     * set the name of the state to a certain value
+     *
+     * @param state the received name of the state
+     */
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    /**
+     * get the name of the street
+     *
+     * @return the name of the street
+     */
+    public String getStreetName() {
+        return streetName;
+    }
+
+    /**
+     * set the name of the street to a certain value
+     *
+     * @param streetName the received name of the street
+     */
+    public void setStreetName(String streetName) {
+        this.streetName = streetName;
+    }
+
+    /**
+     * get the name of the city
+     *
+     * @return the name of the city
+     */
+    public String getCity() {
+        return city;
+    }
+
+    /**
+     * set the name of the city to a certain value
+     *
+     * @param city the received name of the city
+     */
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+
+    /**
+     * get the value of the house'number
+     *
+     * @return the value of the number of the house
+     */
+    public int getHouseNumber() {
+        return houseNumber;
+    }
+
+    /**
+     * set the number of the house to a certain value
+     *
+     * @param houseNumber the received number of the house
+     */
+    public void setHouseNumber(int houseNumber) {
+        this.houseNumber = houseNumber;
+    }
+
+    /**
+     * get the value of the postal code
+     *
+     * @return the value of the postal code
+     */
+    public int getPostalCode() {
+        return postalCode;
+    }
+
+    /**
+     * set the postal code to a certain value
+     *
+     * @param postalCode the received postal code
+     */
+    public void setPostalCode(int postalCode) {
+        this.postalCode = postalCode;
+    }
+
+
 }

@@ -19,14 +19,14 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 @Entity
-@Table(name="PURCHASELIST")
+@Table
 public class PurchaseList {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long PURCHASEID;
 
-    @Column(name="dateOfPurchase")
+    @Column
     private Date dateOfPurchase;// this variable designate the date of the purchase
 
     @ManyToMany
