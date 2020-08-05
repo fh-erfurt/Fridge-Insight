@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Error Page</title>
-    <link href="${pageContext.request.contextPath}/resources/css/MainCss.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/ErrorCss.css" rel="stylesheet">
 </head>
 <body>
 <div></div>
@@ -34,5 +34,6 @@
 </svg>
 
 <h2>Page Not Found</h2>
+<input type="button" value="GO BACK !" onclick="window.location.href='addAccount'; return false;"/>
 </body>
 </html>
