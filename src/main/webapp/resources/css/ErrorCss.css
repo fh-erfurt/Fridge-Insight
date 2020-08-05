@@ -41,7 +41,7 @@ h2{
     animation: fadeInText 3s ease-in 1s forwards, flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite;
 }
 input[type=button]{
-    outline: solid #12000a 2px;
+    outline: solid #12000a 0px;
     transition: outline 0.6s linear;
     border: none;
     padding : 20px;
