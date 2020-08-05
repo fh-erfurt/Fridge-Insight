@@ -29,8 +29,9 @@ public class AccountsController {
         return "index";
     }
 
-    @RequestMapping("/addAccount")
-    public String addAccount() {
+    @GetMapping("/addAccount")
+    public String addAccount(Model model) {
+        model.addAttribute("account",new Account());
         return "addAccount";
     }
 

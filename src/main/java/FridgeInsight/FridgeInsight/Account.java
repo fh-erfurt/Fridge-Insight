@@ -19,6 +19,7 @@ import java.util.List;
 public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column
     private Long ACCID;
 
     @Column
@@ -34,7 +35,7 @@ public class Account {
     private float Height; // this variable designate the height of the user
 
     @Column
-    private boolean superUser; // this variable designate the clearance of the user
+    private boolean superUser = true; // this variable designate the clearance of the user
 
     @Column
     private String familyPosition; // this variable designate the family position of the user
