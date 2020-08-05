@@ -11,18 +11,7 @@
     <h1>New Person</h1>
     <form:form action="saveAccount" method="POST" modelAttribute="account">
         <form:hidden path="ACCID" />
-        <div class="user-box">
-            <form:input type="number" id="age" path="age" />
-            <label for="age">Age</label>
-</div>
-        <div class="user-box">
-            <form:input path="height" type="number" id="height" />
-            <label for="height">Height</label>
-        </div>
-        <div class="user-box">
-            <form:input path="familyPosition" type="text" id="familyPosition" />
-            <label for="familyPosition">Family Position</label>
-        </div>
+
         <div class="user-box">
             <form:input path="firstName" type="text" id="firstName"/>
             <label for="firstName">First name</label>
@@ -34,6 +23,18 @@
         <div class="user-box">
             <form:input path="Password" type="password" id="password"/>
             <label for="password">Password</label>
+        </div>
+        <div class="user-box">
+            <form:input path="familyPosition" type="text" id="familyPosition" />
+            <label for="familyPosition">Family Position</label>
+        </div>
+        <div class="user-box">
+            <form:input type="number" id="age" path="age" />
+            <label for="age">Age</label>
+        </div>
+        <div class="user-box">
+            <form:input path="height" type="number" id="height" />
+            <label for="height">Height</label>
         </div>
         <div class="superUser">
             <ul>

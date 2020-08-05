@@ -26,7 +26,7 @@ public class AccountsController {
         account.setDateOfCreation(dateOfCreation.getTime());
 
         accountRepository.save(account);
-        return "index";
+        return "redirect:/showAccounts";
     }
 
     @GetMapping("/addAccount")
