@@ -61,6 +61,7 @@ body {
 
  }
 .login-box .user-box select:hover{
+    color: blue;
     border: dodgerblue solid 3px;
     border-radius: 3px;
     padding: 7px 0px;
