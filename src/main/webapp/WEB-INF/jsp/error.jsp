@@ -34,6 +34,6 @@
 </svg>
 
 <h2>Page Not Found</h2>
-<input type="button" value="GO BACK !" onclick="window.location.href='addAccount'; return false;"/>
+<input type="button" value="GO HOME !" onclick="window.location.href='addAccount'; return false;"/>
 </body>
 </html>

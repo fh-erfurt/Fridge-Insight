@@ -50,6 +50,5 @@
         <input type="button" value="Add New SuperMarket" onclick="window.location.href='addSuperMarket'; return false;"/>
     </div>
 </div>
-
 </body>
 </html>
