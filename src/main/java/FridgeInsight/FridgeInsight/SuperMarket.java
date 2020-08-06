@@ -19,7 +19,7 @@ import java.util.List;
 
 
 @Entity
-@Table()
+@Table
 public class SuperMarket {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

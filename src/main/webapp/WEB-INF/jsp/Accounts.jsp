@@ -47,7 +47,7 @@
             </c:forEach>
         </table>
         <div class ="addBtn">
-            <input type="button" value="Add Account" onclick="window.location.href='addAccount'; return false;"/>
+            <input type="button" value="Add New Account" onclick="window.location.href='addAccount'; return false;"/>
         </div>
     </div>
 
