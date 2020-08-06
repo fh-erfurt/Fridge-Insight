@@ -43,7 +43,7 @@ public class SuperMarket {
     @Column
     private int postalCode; // this variable designate the postal code
 
-    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "supermarket")
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.MERGE, mappedBy = "supermarket")
     @JsonManagedReference
     private List<Food> foodList;
 

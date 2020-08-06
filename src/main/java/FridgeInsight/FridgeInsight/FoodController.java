@@ -43,4 +43,25 @@ public class FoodController {
         return "redirect:/showFoods";
     }
 
+    @GetMapping("/showFoods")
+    public String showFoods(Model theModel) {
+
+        List<Food> Foods = foodRepository.findAll();
+        theModel.addAttribute("Foods",Foods);
+
+        return "Foods";
+    }
+
+    @GetMapping("/deleteFood")
+    public String deleteFood(@RequestParam("FOODID") Long Id)  {
+        foodRepository.deleteById(Id);
+        return "redirect:/showFoods";
+    }
+    @GetMapping("/updateFood")
+    public String updateFood(@RequestParam("FOODID") Long Id, Model theModel) {
+        Food food = foodRepository.findById(Id).orElse(new Food());
+        theModel.addAttribute("food", food);
+        return "addFood";
+    }
+
 }

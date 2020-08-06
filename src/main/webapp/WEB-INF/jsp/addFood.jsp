@@ -33,11 +33,13 @@
             <form:input path="foodUnit" type="text" id="foodUnit"/>
             <label for="foodUnit">Food Unit</label>
         </div>
-        <label for="supermarket">SuperMarket</label>
+        <div class="user-box">
         <form:select id="supermarket" path="supermarket.marketID">
             <form:option value="None" label="--Please Select"/>
             <form:options items="${superMarkets}" itemValue="marketID" itemLabel="marketName"/>
         </form:select>
+            <label for="supermarket">SuperMarket</label>
+        </div>
         <div class="add">
             <span></span>
             <span></span>

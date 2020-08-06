@@ -41,7 +41,7 @@ public class Food {
     @Column
     private String foodUnit; // this variable designate the Unity of the food
 
-    @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.MERGE, optional = false)
     @JoinColumn (name="SuperMarket_ID", nullable = false)
     @JsonBackReference
     private SuperMarket supermarket;

@@ -47,7 +47,24 @@ body {
     background: transparent;
     font-family: 'Lato', sans-serif;
 }
+.login-box .user-box select{
+     width: 100%;
+     padding: 10px 0;
+     font-size: 16px;
+     color: #fff;
+     margin-bottom: 30px;
+     border: none;
+     outline: none;
+     background: transparent;
+     font-family: 'Lato', sans-serif;
+     margin-top: 15px;
 
+ }
+.login-box .user-box select:hover{
+    border: dodgerblue solid 3px;
+    border-radius: 3px;
+    padding: 7px 0px;
+}
 
 .login-box .user-box label {
     position: absolute;
