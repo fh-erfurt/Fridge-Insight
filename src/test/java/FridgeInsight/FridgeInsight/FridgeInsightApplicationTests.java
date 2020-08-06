@@ -1,6 +1,10 @@
 package FridgeInsight.FridgeInsight;
 
+import FridgeInsight.FridgeInsight.Classes.Account;
+import FridgeInsight.FridgeInsight.Classes.Food;
+import FridgeInsight.FridgeInsight.Classes.SuperMarket;
 import FridgeInsight.FridgeInsight.Repository.*;
+import org.apache.tomcat.jni.Address;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,8 +19,6 @@ class FridgeInsightApplicationTests {
 	@Autowired
 	private AccountRepository accountRepository;
 
-
-
 	@Autowired
 	private SuperMarketRepository superMarketRepository;
 
@@ -26,8 +28,7 @@ class FridgeInsightApplicationTests {
 	@Test
 	void contextLoads() {
 
-	/*	accountRepository.deleteAllInBatch();
-		addressRepository.deleteAllInBatch();
+		accountRepository.deleteAllInBatch();
 		superMarketRepository.deleteAllInBatch();
 		foodRepository.deleteAllInBatch();
 
@@ -39,28 +40,23 @@ class FridgeInsightApplicationTests {
 
 		List<Food> foodList = new ArrayList<Food>();
 
-		Account 	account 	= new Account("Hamza", "Harti", 25, 178, true, "Father", "A1fatalmamak", dateOfCreation.getTime());
+		Account account = new Account("Hamza", "Harti", 25, 178, true, "Father", "A1fatalmamak", dateOfCreation.getTime());
+		accountRepository.save(account);
 
-		Address 	address 	= new Address(1003,"Plauener Weg 8", "Erfurt","TH",99089);
-		SuperMarket superMarket = new SuperMarket("Edeka Koch");
+		SuperMarket superMarket = new SuperMarket("Edeka Koch",1003,"Plauener Weg 8", "Erfurt","TH",99089);
+		superMarketRepository.save(superMarket);
 
-		address.setSuperMarket(superMarket);
-		superMarket.setAddress(address);
-
-		Food 		food1 		= new Food("Milch 1,5% JA",dateOfExpiration.getTime(),"Milch",2);
-		Food 		food2 		= new Food("Kochbeutel-Reis Longkorn 500g",dateOfExpiration.getTime(),"Spitzenreis",5);
+		Food food1 	= new Food("Milch 1,5% JA",dateOfExpiration.getTime(),"Getränke",2,"L");
+		Food food2 	= new Food("Kochbeutel-Reis Longkorn",dateOfExpiration.getTime(),"Spitzenreis",500,"g");
 
 		foodList.add(food1);
 		foodList.add(food2);
 
+
 		food1.setSupermarket(superMarket);
 		food2.setSupermarket(superMarket);
 		superMarket.setFoodList(foodList);
-
 		foodRepository.save(food1);
 		foodRepository.save(food2);
-		superMarketRepository.save(superMarket);
-		addressRepository.save(address);
-		accountRepository.save(account);*/
 	}
 }

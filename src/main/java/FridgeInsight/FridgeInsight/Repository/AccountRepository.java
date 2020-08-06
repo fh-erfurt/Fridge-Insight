@@ -1,7 +1,7 @@
 package FridgeInsight.FridgeInsight.Repository;
 
 
-import FridgeInsight.FridgeInsight.Account;
+import FridgeInsight.FridgeInsight.Classes.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,8 +1,6 @@
-package FridgeInsight.FridgeInsight;
+package FridgeInsight.FridgeInsight.Classes;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.Date;

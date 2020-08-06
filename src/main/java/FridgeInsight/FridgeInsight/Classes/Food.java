@@ -6,11 +6,10 @@
  * @version 1.0
  * @see SuperMarket
  */
-package FridgeInsight.FridgeInsight;
+package FridgeInsight.FridgeInsight.Classes;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import org.hibernate.annotations.Fetch;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
@@ -46,9 +45,9 @@ public class Food {
     @JsonBackReference
     private SuperMarket supermarket;
 
-    @OneToOne(fetch = FetchType.LAZY, cascade= CascadeType.ALL, mappedBy = "food")
+    @OneToMany(fetch = FetchType.LAZY, cascade= CascadeType.MERGE, mappedBy = "food")
     @JsonManagedReference
-    private NotificationFood notificationFood;
+    private List<NotificationFood> listNotificationFood;
 
     @ManyToMany(mappedBy = "foods")
     @JsonManagedReference
@@ -69,11 +68,12 @@ public class Food {
      * @param foodType     the type of the food
      * @param foodQuantity the quantity of the food
      */
-    public Food(String foodTitle, Date expireDate, String foodType, int foodQuantity) {
+    public Food(String foodTitle, Date expireDate, String foodType, int foodQuantity,String foodUnit) {
         this.expireDate = expireDate;
         this.foodQuantity = foodQuantity;
         this.foodTitle = foodTitle;
         this.foodType = foodType;
+        this.foodUnit = foodUnit;
     }
 
     /**
@@ -163,16 +163,17 @@ public class Food {
         return FOODID;
     }
 
-    public NotificationFood getNotificationFood() {
-        return notificationFood;
-    }
-
     public void setFOODID(Long FOODID) {
         this.FOODID = FOODID;
     }
 
-    public void setNotificationFood(NotificationFood notificationFood) {
-        this.notificationFood = notificationFood;
+    public List<NotificationFood> getListNotificationFood() {
+        return listNotificationFood;
+    }
+
+
+    public void setListNotificationFood(List<NotificationFood> ListNotificationFood) {
+        this.listNotificationFood = ListNotificationFood;
     }
 
     public SuperMarket getSupermarket() {

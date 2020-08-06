@@ -9,9 +9,8 @@
  */
 
 
-package FridgeInsight.FridgeInsight;
+package FridgeInsight.FridgeInsight.Classes;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;

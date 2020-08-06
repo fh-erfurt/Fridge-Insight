@@ -3,180 +3,19 @@
   <ID>JAVA</ID>
   <OriginalElement>FridgeInsight.FridgeInsight</OriginalElement>
   <nodes>
-    <node x="636.0" y="2642.0">FridgeInsight.FridgeInsight.FridgeInsightApplicationTests</node>
-    <node x="1691.0" y="0.0">FridgeInsight.FridgeInsight.ErrorController</node>
-    <node x="318.0" y="2620.0">FridgeInsight.FridgeInsight.SuperMarketController</node>
-    <node x="0.0" y="2609.0">FridgeInsight.FridgeInsight.FoodController</node>
-    <node x="274.5277777777777" y="0.0">FridgeInsight.FridgeInsight.Account</node>
-    <node x="283.25" y="1186.0">FridgeInsight.FridgeInsight.Food</node>
-    <node x="226.15277777777771" y="771.0">FridgeInsight.FridgeInsight.PurchaseList</node>
-    <node x="686.25" y="2520.0">FridgeInsight.FridgeInsight.Repository</node>
-    <node x="1269.0" y="103.0">FridgeInsight.FridgeInsight.ServletInitializer</node>
-    <node x="371.25" y="1891.0">FridgeInsight.FridgeInsight.SuperMarket</node>
-    <node x="954.0" y="2620.0">FridgeInsight.FridgeInsight.AccountsController</node>
-    <node x="1349.5" y="0.0">FridgeInsight.FridgeInsight.FridgeInsightApplication</node>
-    <node x="569.7964852607711" y="771.0">FridgeInsight.FridgeInsight.NotificationFood</node>
+    <node x="0.0" y="282.0">FridgeInsight.FridgeInsight.Repository</node>
+    <node x="0.0" y="0.0">FridgeInsight.FridgeInsight.FridgeInsightApplicationTests</node>
+    <node x="0.0" y="184.0">FridgeInsight.FridgeInsight.FridgeInsightApplication</node>
   </nodes>
   <notes />
-  <edges>
-    <edge source="FridgeInsight.FridgeInsight.SuperMarketController" target="FridgeInsight.FridgeInsight.SuperMarket">
-      <point x="37.25" y="-91.5" />
-      <point x="504.25" y="2569.0" />
-      <point x="478.75" y="2569.0" />
-      <point x="478.75" y="2500.0" />
-      <point x="498.75" y="2500.0" />
-      <point x="25.5" y="289.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Food" target="FridgeInsight.FridgeInsight.SuperMarket">
-      <point x="86.875" y="322.5" />
-      <point x="509.125" y="1871.0" />
-      <point x="549.75" y="1871.0" />
-      <point x="76.5" y="-289.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.SuperMarketController" target="FridgeInsight.FridgeInsight.Repository">
-      <point x="111.75" y="-91.5" />
-      <point x="578.75" y="2589.0" />
-      <point x="745.5" y="2589.0" />
-      <point x="-19.75" y="14.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.PurchaseList" target="FridgeInsight.FridgeInsight.Food">
-      <point x="17.41666666666663" y="157.5" />
-      <point x="348.06944444444434" y="1136.0" />
-      <point x="391.3611111111111" y="1136.0" />
-      <point x="-30.888888888888914" y="-322.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Repository" target="FridgeInsight.FridgeInsight.Food">
-      <point x="-31.600000000000023" y="-14.5" />
-      <point x="733.65" y="2490.0" />
-      <point x="706.4306292517008" y="2490.0" />
-      <point x="706.4306292517008" y="1861.0" />
-      <point x="543.875" y="1861.0" />
-      <point x="121.625" y="322.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.ServletInitializer" target="FridgeInsight.FridgeInsight.FridgeInsightApplication">
-      <point x="0.0" y="-26.5" />
-      <point x="0.0" y="26.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Repository" target="FridgeInsight.FridgeInsight.Account">
-      <point x="63.200000000000045" y="-14.5" />
-      <point x="828.45" y="2500.0" />
-      <point x="827.2897789115647" y="2500.0" />
-      <point x="827.2897789115647" y="751.0" />
-      <point x="447.45634920634905" y="751.0" />
-      <point x="38.42857142857133" y="355.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.FridgeInsightApplicationTests" target="FridgeInsight.FridgeInsight.Repository">
-      <point x="0.0" y="-69.5" />
-      <point x="19.75" y="14.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.FoodController" target="FridgeInsight.FridgeInsight.Food">
-      <point x="-37.25" y="-102.5" />
-      <point x="111.75" y="2589.0" />
-      <point x="121.56836734693889" y="2589.0" />
-      <point x="121.56836734693889" y="1861.0" />
-      <point x="335.375" y="1861.0" />
-      <point x="-86.875" y="322.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.SuperMarketController" target="FridgeInsight.FridgeInsight.Food">
-      <point x="-111.75" y="-91.5" />
-      <point x="355.25" y="2569.0" />
-      <point x="312.5683673469389" y="2569.0" />
-      <point x="312.5683673469389" y="1871.0" />
-      <point x="370.125" y="1871.0" />
-      <point x="-52.125" y="322.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.AccountsController" target="FridgeInsight.FridgeInsight.Repository">
-      <point x="-90.0" y="-91.5" />
-      <point x="999.0" y="2589.0" />
-      <point x="824.5" y="2589.0" />
-      <point x="59.25" y="14.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.FoodController" target="FridgeInsight.FridgeInsight.Repository">
-      <point x="111.75" y="-102.5" />
-      <point x="260.75" y="2579.0" />
-      <point x="706.0" y="2579.0" />
-      <point x="-59.25" y="14.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Repository" target="FridgeInsight.FridgeInsight.PurchaseList">
-      <point x="0.0" y="-14.5" />
-      <point x="765.25" y="2500.0" />
-      <point x="775.55" y="2500.0" />
-      <point x="775.55" y="1116.0" />
-      <point x="417.7361111111111" y="1116.0" />
-      <point x="87.08333333333337" y="157.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.SuperMarket" target="FridgeInsight.FridgeInsight.Food">
-      <point x="-25.5" y="-289.5" />
-      <point x="447.75" y="1871.0" />
-      <point x="439.625" y="1871.0" />
-      <point x="17.375" y="322.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.FoodController" target="FridgeInsight.FridgeInsight.SuperMarket">
-      <point x="37.25" y="-102.5" />
-      <point x="186.25" y="2589.0" />
-      <point x="132.56836734693889" y="2589.0" />
-      <point x="132.56836734693889" y="2500.0" />
-      <point x="396.75" y="2500.0" />
-      <point x="-76.5" y="289.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.NotificationFood" target="FridgeInsight.FridgeInsight.Food">
-      <point x="42.80000000000007" y="157.5" />
-      <point x="719.5964852607711" y="1166.0" />
-      <point x="545.8055555555555" y="1166.0" />
-      <point x="123.55555555555554" y="-322.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Food" target="FridgeInsight.FridgeInsight.PurchaseList">
-      <point x="-61.77777777777777" y="-322.5" />
-      <point x="360.47222222222223" y="1146.0" />
-      <point x="313.2361111111111" y="1146.0" />
-      <point x="-17.41666666666663" y="157.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Account" target="FridgeInsight.FridgeInsight.PurchaseList">
-      <point x="-38.428571428571445" y="355.5" />
-      <point x="370.59920634920627" y="751.0" />
-      <point x="356.7777777777777" y="751.0" />
-      <point x="26.125" y="-157.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Repository" target="FridgeInsight.FridgeInsight.SuperMarket">
-      <point x="-63.200000000000045" y="-14.5" />
-      <point x="702.05" y="2500.0" />
-      <point x="549.75" y="2500.0" />
-      <point x="76.5" y="289.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.AccountsController" target="FridgeInsight.FridgeInsight.Account">
-      <point x="0.0" y="-91.5" />
-      <point x="1089.0" y="2589.0" />
-      <point x="1122.5895408163267" y="2589.0" />
-      <point x="1122.5895408163267" y="741.0" />
-      <point x="485.8849206349205" y="741.0" />
-      <point x="76.85714285714278" y="355.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Repository" target="FridgeInsight.FridgeInsight.NotificationFood">
-      <point x="31.600000000000023" y="-14.5" />
-      <point x="796.85" y="2500.0" />
-      <point x="805.8397789115647" y="2500.0" />
-      <point x="805.8397789115647" y="1106.0" />
-      <point x="762.3964852607711" y="1106.0" />
-      <point x="85.60000000000002" y="157.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.PurchaseList" target="FridgeInsight.FridgeInsight.Account">
-      <point x="-78.375" y="-157.5" />
-      <point x="252.27777777777771" y="751.0" />
-      <point x="293.7420634920634" y="751.0" />
-      <point x="-115.28571428571433" y="355.5" />
-    </edge>
-    <edge source="FridgeInsight.FridgeInsight.Food" target="FridgeInsight.FridgeInsight.NotificationFood">
-      <point x="61.77777777777783" y="-322.5" />
-      <point x="484.0277777777778" y="1146.0" />
-      <point x="633.9964852607711" y="1146.0" />
-      <point x="-42.799999999999955" y="157.5" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="726.5" y="1087.4999999999995" />
-  <SelectedNodes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.7392002856122812" x="1103.0" y="309.7499593562023" />
+  <SelectedNodes>
+    <node>FridgeInsight.FridgeInsight.FridgeInsightApplicationTests</node>
+  </SelectedNodes>
   <Categories>
-    <Category>Fields</Category>
     <Category>Methods</Category>
+    <Category>Fields</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

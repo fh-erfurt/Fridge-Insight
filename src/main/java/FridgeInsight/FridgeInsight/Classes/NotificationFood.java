@@ -7,9 +7,10 @@
  * @see Food
  */
 
-package FridgeInsight.FridgeInsight;
+package FridgeInsight.FridgeInsight.Classes;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -22,14 +23,18 @@ public class NotificationFood {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long NOTIFOODID;
 
-    @Column(name = "minimumQuantity")
-    private int minimumQuantity; // this variable designate the minimum quantity allowed
+    @Column
+    private int requiredQuantity; // this variable designate the minimum quantity allowed
 
-    @Column(name="dateOfExpiration")
+    @Column
+    private int unit;
+
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
     private Date dateOfExpiration; // this variable designate the date when the purchase should be made.
 
 
-    @OneToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name="FOOD_ID", nullable = false)
     @JsonBackReference
     private Food food; // this variable designate the selected food
@@ -46,9 +51,10 @@ public class NotificationFood {
      * @param minimumQuantity  the minimum quantity allowed
      * @param dateOfExpiration the date when the purchase should be made.
      */
-    public NotificationFood(int minimumQuantity, Date dateOfExpiration) {
-        this.minimumQuantity = minimumQuantity;
+    public NotificationFood(int minimumQuantity,int unit, Date dateOfExpiration) {
+        this.requiredQuantity = minimumQuantity;
         this.dateOfExpiration = dateOfExpiration;
+        this.unit=unit;
     }
 
     /**
@@ -56,8 +62,8 @@ public class NotificationFood {
      *
      * @return the value of the minimum quantity
      */
-    public int getMinimumQuantity() {
-        return minimumQuantity;
+    public int getRequiredQuantity() {
+        return requiredQuantity;
     }
 
     /**
@@ -65,8 +71,8 @@ public class NotificationFood {
      *
      * @param minimumQuantity the received value of the minimun quantity
      */
-    public void setMinimumQuantity(int minimumQuantity) {
-        this.minimumQuantity = minimumQuantity;
+    public void setRequiredQuantity(int minimumQuantity) {
+        this.requiredQuantity = minimumQuantity;
     }
 
     /**
@@ -102,6 +108,15 @@ public class NotificationFood {
     public void setNOTIFOODID(Long NOTIFOODID) {
         this.NOTIFOODID = NOTIFOODID;
     }
+
+    public int getUnit() {
+        return unit;
+    }
+
+    public void setUnit(int unit) {
+        this.unit = unit;
+    }
+
 }
 
 

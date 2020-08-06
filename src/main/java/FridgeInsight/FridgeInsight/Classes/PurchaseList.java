@@ -9,7 +9,7 @@
  * @see Account
  */
 
-package FridgeInsight.FridgeInsight;
+package FridgeInsight.FridgeInsight.Classes;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;

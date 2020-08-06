@@ -1,17 +1,17 @@
-package FridgeInsight.FridgeInsight;
+package FridgeInsight.FridgeInsight.Controllers;
 
+import FridgeInsight.FridgeInsight.Classes.Food;
+import FridgeInsight.FridgeInsight.Classes.NotificationFood;
 import FridgeInsight.FridgeInsight.Repository.FoodRepository;
 import FridgeInsight.FridgeInsight.Repository.SuperMarketRepository;
+import FridgeInsight.FridgeInsight.Classes.SuperMarket;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.WebDataBinder;
+import org.springframework.util.AutoPopulatingList;
 import org.springframework.web.bind.annotation.*;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
+import javax.management.Notification;
 import java.util.List;
 
 @Controller
@@ -25,6 +25,9 @@ public class FoodController {
 
     @GetMapping("/addFood")
     public String addFood(Model model) {
+
+        Food food = new Food();
+        food.setListNotificationFood(new AutoPopulatingList<NotificationFood>(NotificationFood.class));
 
         List<SuperMarket> supermarkets = superMarketRepository.findAll();
 
