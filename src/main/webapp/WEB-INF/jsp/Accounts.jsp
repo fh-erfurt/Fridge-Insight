@@ -20,6 +20,7 @@
                 <th>Family Position</th>
                 <th>Age</th>
                 <th>Height</th>
+                <th>Date of Creation</th>
                 <th>SuperUser</th>
                 <th>Update</th>
                 <th>Delete</th>
@@ -39,6 +40,7 @@
                     <td>${account.familyPosition}</td>
                     <td>${account.age}</td>
                     <td>${account.height}</td>
+                    <td>${account.dateOfCreation}</td>
                     <td>${account.superUser}</td>
                     <td><a href="${update}"><img alt="delete image" style="width: 40px; height: 40px;"src="resources/images/update.png"/></a></td>
                     <td><a href="${delete}" onclick="if (!(confirm('Are you sure you want to delete this Account?'))) return false"><img alt="delete image" style="width: 40px; height: 40px;"src="resources/images/delete.png"/></a>

@@ -252,10 +252,9 @@ input#two:checked ~ .check { transform: translate(-50px, -25px); }
 
 /*---------------------------------Show Accounts-----------------*/
 
-account {
+.account {
     display: block;
     margin: auto;
-    padding:5px;
     width: 100%;
 }
 
@@ -291,9 +290,9 @@ th {
     background:#1b1e24;
     border-bottom:4px solid #9ea7af;
     border-right: 1px solid #343a45;
-    font-size:23px;
+    font-size:20px;
     font-weight: 100;
-    padding:40px;
+    padding:25px;
     text-align:center;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     vertical-align:middle;
@@ -350,11 +349,11 @@ tr:last-child td:last-child {
 
 td {
     background:#FFFFFF;
-    padding:30px;
+    padding:25px;
     text-align:center;
     vertical-align:middle;
     font-weight:300;
-    font-size:18px;
+    font-size:15px;
     text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
     border-right: 1px solid #C1C3D1;
     font-family: 'Lato', sans-serif;

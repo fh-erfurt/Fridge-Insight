@@ -36,6 +36,8 @@ public class Food {
     @Column(name="foodQuantity")
     private int foodQuantity; // this variable designate the quantity of the food
 
+    @Column(name="foodUnit")
+    private String foodUnit; // this variable designate the Unity of the food
 
     @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL, optional = false)
     @JoinColumn (name="SuperMarket_ID", nullable = false)
@@ -185,5 +187,13 @@ public class Food {
 
     public void setPurchaseLists(List<PurchaseList> purchaseLists) {
         this.purchaseLists = purchaseLists;
+    }
+
+    public String getFoodUnit() {
+        return foodUnit;
+    }
+
+    public void setFoodUnit(String foodUnit) {
+        this.foodUnit = foodUnit;
     }
 }
