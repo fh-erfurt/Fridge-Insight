@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 
 <html>
 <head>
@@ -17,7 +18,7 @@
             <label for="foodTitle">Food Title</label>
         </div>
         <div class="user-box">
-            <form:input path="expireDate" type="date" id="expireDate"/>
+            <form:input path="expireDate" type="date" id="expireDate" pattern="yyyy-MM-dd"/>
             <label for="expireDate">Expire Date</label>
         </div>
         <div class="user-box">
@@ -34,7 +35,7 @@
         </div>
         <label for="supermarket">SuperMarket</label>
         <form:select id="supermarket" path="supermarket.marketID">
-            <form:option value="-" label="--Please Select"/>
+            <form:option value="None" label="--Please Select"/>
             <form:options items="${superMarkets}" itemValue="marketID" itemLabel="marketName"/>
         </form:select>
         <div class="add">

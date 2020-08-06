@@ -4,6 +4,7 @@ import FridgeInsight.FridgeInsight.Repository.SuperMarketRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.AutoPopulatingList;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,13 +21,6 @@ public class SuperMarketController {
     @Autowired
     private SuperMarketRepository superMarketRepository;
 
-    @RequestMapping("/addFood")
-    public String addFood(@RequestParam("marketID") Long Id){
-
-        FoodController foodController = new FoodController(superMarketRepository.findById(Id));
-
-        return "addFood";
-    }
 
     @RequestMapping("/saveSuperMarket")
     public String saveSuperMarket(SuperMarket superMarket) {
@@ -37,6 +31,9 @@ public class SuperMarketController {
 
     @RequestMapping("/addSuperMarket")
     public String addSuperMarket(Model model) {
+
+        SuperMarket superMarket = new SuperMarket();
+        superMarket.setFoodList(new AutoPopulatingList<Food>(Food.class));
         model.addAttribute("supermarket", new SuperMarket());
         return "addSuperMarket";
     }
@@ -61,6 +58,4 @@ public class SuperMarketController {
         theModel.addAttribute("supermarket", superMarket);
         return "addSuperMarket";
     }
-
-
 }

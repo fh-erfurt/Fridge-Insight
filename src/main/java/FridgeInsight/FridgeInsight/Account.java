@@ -2,6 +2,7 @@ package FridgeInsight.FridgeInsight;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -42,7 +43,6 @@ public class Account {
 
 
     @Temporal(TemporalType.DATE)
-    @Column
     private Date dateOfCreation; // this is a variable to designate the date when the profil was created.
 
     @Column

@@ -22,14 +22,10 @@
             <th>City</th>
             <th>State</th>
             <th>Update</th>
-            <th>Add Food</th>
             <th>Delete</th>
         </tr>
         <c:forEach var="superMarket" items="${SuperMarkets}">
             <c:url var="update" value="http://localhost:8080/updateSuperMarket">
-                <c:param name="marketID" value="${superMarket.marketID}"/>
-            </c:url>
-            <c:url var="add" value="http://localhost:8080/addFood">
                 <c:param name="marketID" value="${superMarket.marketID}"/>
             </c:url>
             <c:url var="delete" value="http://localhost:8080/deleteSuperMarket">
@@ -44,7 +40,6 @@
                 <td>${superMarket.city}</td>
                 <td>${superMarket.state}</td>
                 <td><a href="${update}"><img alt="delete image" style="width: 40px; height: 40px;"src="resources/images/update.png"/></a></td>
-                <td><a href="${add}"><img alt="add image" style="width: 40px; height: 40px;"src="resources/images/update.png"/></a></td>
                 <td><a href="${delete}" onclick="if (!(confirm('Are you sure you want to delete this Account?'))) return false"><img alt="delete image" style="width: 40px; height: 40px;"src="resources/images/delete.png"/></a></td>
 
             </tr>

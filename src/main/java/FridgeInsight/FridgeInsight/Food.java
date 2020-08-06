@@ -11,6 +11,7 @@ package FridgeInsight.FridgeInsight;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import org.hibernate.annotations.Fetch;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -18,25 +19,26 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name="Food")
+@Table
 public class Food {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long FOODID;
 
-    @Column(name="foodTitle")
+    @Column
     private String foodTitle; // this variable designate the name of the food
 
-    @Column(name="expireDate")
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
     private Date expireDate; // this variable designate the expiration date of the food
 
-    @Column(name="foodType")
+    @Column
     private String foodType; // this variable designate the type of the food
 
-    @Column(name="foodQuantity")
+    @Column
     private int foodQuantity; // this variable designate the quantity of the food
 
-    @Column(name="foodUnit")
+    @Column
     private String foodUnit; // this variable designate the Unity of the food
 
     @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL, optional = false)
