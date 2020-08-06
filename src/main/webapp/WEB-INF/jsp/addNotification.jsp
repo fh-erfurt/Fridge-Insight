@@ -9,27 +9,27 @@
 </head>
 <body>
 <div class="login-box">
-    <h1>New Food</h1>
+    <h1>New Notification</h1>
     <form:form action="saveNotification" method="POST" modelAttribute="notification">
         <form:hidden path="NOTFOODID" />
+        <div class="user-box">
+            <form:select id="food" path="food.FOODID">
+                <form:option value="" label="--Please Select--"/>
+                <form:options items="${foods}" itemValue="FOODID" itemLabel="foodTitle"/>
+            </form:select>
+            <label for="food">Food</label>
+        </div>
         <div class="user-box">
             <form:input path="requiredQuantity" type="number" id="requiredQuantity"/>
             <label for="requiredQuantity">required Quantity</label>
         </div>
         <div class="user-box">
-            <form:input path="unit" type="number" id="unit"/>
+            <form:input path="unit" type="text" id="unit"/>
             <label for="unit">Unit</label>
         </div>
         <div class="user-box">
-            <form:input path="expirationDate" type="date" id="expirationDate" pattern="yyyy-MM-dd"/>
-            <label for="expirationDate">Expiration Date</label>
-        </div>
-        <div class="user-box">
-            <form:select id="food" path="food.FOODID">
-                <form:option value="None" label="--Please Select--"/>
-                <form:options items="${foods}" itemValue="FOODID" itemLabel="foodTitle"/>
-            </form:select>
-            <label for="food">Food</label>
+            <form:input path="dateOfExpiration" type="date" id="dateOfExpiration" pattern="yyyy-MM-dd"/>
+            <label for="dateOfExpiration">Expiration Date</label>
         </div>
         <div class="add">
             <span></span>

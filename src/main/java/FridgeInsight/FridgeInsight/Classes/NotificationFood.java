@@ -21,13 +21,13 @@ public class NotificationFood {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long NOTIFOODID;
+    private Long NOTFOODID;
 
     @Column
     private int requiredQuantity; // this variable designate the minimum quantity allowed
 
     @Column
-    private int unit;
+    private String unit;
 
     @Temporal(TemporalType.DATE)
     @DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
@@ -51,7 +51,7 @@ public class NotificationFood {
      * @param minimumQuantity  the minimum quantity allowed
      * @param dateOfExpiration the date when the purchase should be made.
      */
-    public NotificationFood(int minimumQuantity,int unit, Date dateOfExpiration) {
+    public NotificationFood(int minimumQuantity,String unit, Date dateOfExpiration) {
         this.requiredQuantity = minimumQuantity;
         this.dateOfExpiration = dateOfExpiration;
         this.unit=unit;
@@ -97,23 +97,23 @@ public class NotificationFood {
         return food;
     }
 
-    public Long getNOTIFOODID() {
-        return NOTIFOODID;
+    public Long getNOTFOODID() {
+        return NOTFOODID;
     }
 
     public void setFood(Food food) {
         this.food = food;
     }
 
-    public void setNOTIFOODID(Long NOTIFOODID) {
-        this.NOTIFOODID = NOTIFOODID;
+    public void setNOTFOODID(Long NOTIFOODID) {
+        this.NOTFOODID = NOTIFOODID;
     }
 
-    public int getUnit() {
+    public String getUnit() {
         return unit;
     }
 
-    public void setUnit(int unit) {
+    public void setUnit(String unit) {
         this.unit = unit;
     }
 

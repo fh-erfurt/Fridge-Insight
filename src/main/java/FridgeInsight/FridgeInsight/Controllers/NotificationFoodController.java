@@ -59,8 +59,10 @@ public class NotificationFoodController {
     }
     @GetMapping("/updateNotification")
     public String updateNotification(@RequestParam("NOTFOODID") Long Id, Model theModel) {
+        List<Food> foods = foodRepository.findAll();
+        theModel.addAttribute("foods",foods);
         NotificationFood notificationFood = notificationFoodRepository.findById(Id).orElse(new NotificationFood());
-        theModel.addAttribute("notificationfood", notificationFood);
+        theModel.addAttribute("notification", notificationFood);
         return "addNotification";
     }
 
