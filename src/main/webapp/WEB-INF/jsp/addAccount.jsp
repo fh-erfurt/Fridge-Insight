@@ -40,12 +40,12 @@
             <ul>
                 <li>
                     <form:radiobutton path="superUser" id="one" value="true"/>
-                    <label for="one">SuperUser</label>
+                    <label for="one">Admin</label>
                     <div class="check"></div>
                 </li>
                 <li>
                     <form:radiobutton path="superUser" id="two" value="false"/>
-                    <label for="two">Not SuperUser</label>
+                    <label for="two">User</label>
                     <div class="check"></div>
                 </li>
             </ul>

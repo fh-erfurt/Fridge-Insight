@@ -16,12 +16,19 @@ public class FoodController {
 
     @Autowired
     private FoodRepository foodRepository;
-    private SuperMarketRepository superMarketRepository;
+
+    private SuperMarket superMarket;
+
+    public FoodController(SuperMarket superMarket){
+            this.superMarket = superMarket;
+    }
+
 
     @GetMapping("/addFood")
     public String addFood(Model model) {
 
-        List<SuperMarket> superMarkets = superMarketRepository.findAll();
+
+        List<SuperMarket> superMarkets = superMarket.findAll();
         model.addAttribute("superMarkets",superMarkets);
 
         model.addAttribute("food",new Food());

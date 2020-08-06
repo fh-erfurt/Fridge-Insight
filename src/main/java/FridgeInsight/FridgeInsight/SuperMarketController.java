@@ -15,8 +15,18 @@ import java.util.List;
 @Controller
 public class SuperMarketController {
 
+
+
     @Autowired
     private SuperMarketRepository superMarketRepository;
+
+    @RequestMapping("/addFood")
+    public String addFood(@RequestParam("marketID") Long Id){
+
+        FoodController foodController = new FoodController(superMarketRepository.findById(Id));
+
+        return "addFood";
+    }
 
     @RequestMapping("/saveSuperMarket")
     public String saveSuperMarket(SuperMarket superMarket) {
