@@ -34,6 +34,6 @@
 </svg>
 
 <h2>Page Not Found</h2>
-<input type="button" value="GO HOME !" onclick="window.location.href='index'; return false;"/>
+<input type="button" value="GO HOME !" onclick="window.location.href='/'; return false;"/>
 </body>
 </html>

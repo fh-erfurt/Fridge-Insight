@@ -73,6 +73,7 @@ public class PurchaseListController {
 
     @GetMapping("/updatePurchaseList")
     public String updatePurchaseList(@RequestParam("PURCHASEID") Long Id, Model theModel) {
+
         PurchaseList purchaseList = purchaseListRepository.findById(Id).orElse(new PurchaseList());
         theModel.addAttribute("purchaseList", purchaseList);
         return "addPurchaseList";

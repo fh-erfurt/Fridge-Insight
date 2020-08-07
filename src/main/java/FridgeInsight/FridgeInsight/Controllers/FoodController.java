@@ -63,9 +63,10 @@ public class FoodController {
     }
     @GetMapping("/updateFood")
     public String updateFood(@RequestParam("FOODID") Long Id, Model theModel) {
-        List<SuperMarket> supermarkets = superMarketRepository.findAll();
 
+        List<SuperMarket> supermarkets = superMarketRepository.findAll();
         theModel.addAttribute("superMarkets",supermarkets);
+
         Food food = foodRepository.findById(Id).orElse(new Food());
         theModel.addAttribute("food", food);
         return "addFood";
