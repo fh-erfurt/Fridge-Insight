@@ -279,7 +279,7 @@ input#two:checked ~ .check { transform: translate(-50px, -25px); }
 {
     display: block;
     margin: 10% auto;
-    width: 95%;
+    width: 80%;
 }
 .home h3 {
     color: #fafafa;
