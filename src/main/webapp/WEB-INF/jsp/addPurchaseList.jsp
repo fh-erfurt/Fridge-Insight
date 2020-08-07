@@ -28,7 +28,7 @@
         <div class="user-box" >
             <c:forEach  items="${Foods}" var="food" varStatus="count">
                 <tr>
-                    <td><form:checkbox path="listFoods" value="${food.FOODID}"/></td>
+                    <td><form:checkbox path="listFoods" value="${food.foodTitle}"/></td>
                     <td><c:out value="${food.foodTitle}" /></td>
                 </tr>
             </c:forEach>
