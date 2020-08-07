@@ -2,6 +2,7 @@ package FridgeInsight.FridgeInsight.Controllers;
 
 import FridgeInsight.FridgeInsight.Classes.Food;
 import FridgeInsight.FridgeInsight.Classes.NotificationFood;
+import FridgeInsight.FridgeInsight.Classes.PurchaseList;
 import FridgeInsight.FridgeInsight.Repository.FoodRepository;
 import FridgeInsight.FridgeInsight.Repository.SuperMarketRepository;
 import FridgeInsight.FridgeInsight.Classes.SuperMarket;
@@ -28,7 +29,7 @@ public class FoodController {
 
         Food food = new Food();
         food.setListNotificationFood(new AutoPopulatingList<NotificationFood>(NotificationFood.class));
-
+        food.setPurchaseLists(new AutoPopulatingList<PurchaseList>(PurchaseList.class));
         List<SuperMarket> supermarkets = superMarketRepository.findAll();
 
         model.addAttribute("superMarkets",supermarkets);

@@ -49,9 +49,9 @@ public class Food {
     @JsonManagedReference
     private List<NotificationFood> listNotificationFood;
 
-    @ManyToMany(mappedBy = "foods")
+    @ManyToMany(mappedBy = "listFoods")
     @JsonManagedReference
-    private List<PurchaseList> purchaseLists = new ArrayList<PurchaseList>();
+    private List<PurchaseList> purchaseLists;
 
     /**
      * the constructor of the class Food, where all the varibales are set to null.
@@ -184,13 +184,9 @@ public class Food {
         this.supermarket = supermarket;
     }
 
-    public List<PurchaseList> getPurchaseLists() {
-        return purchaseLists;
-    }
+    public List<PurchaseList> getPurchaseLists() { return purchaseLists; }
 
-    public void setPurchaseLists(List<PurchaseList> purchaseLists) {
-        this.purchaseLists = purchaseLists;
-    }
+    public void setPurchaseLists(List<PurchaseList> purchaseLists) {this.purchaseLists = purchaseLists;}
 
     public String getFoodUnit() {
         return foodUnit;

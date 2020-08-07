@@ -13,6 +13,7 @@ package FridgeInsight.FridgeInsight.Classes;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -26,16 +27,17 @@ public class PurchaseList {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long PURCHASEID;
 
-    @Column
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(iso= DateTimeFormat.ISO.DATE)
     private Date dateOfPurchase;// this variable designate the date of the purchase
 
     @ManyToMany
     @JoinTable(name="PURCHASELIST_FOOD", joinColumns = { @JoinColumn(name="fk_Purchase")}, inverseJoinColumns = {@JoinColumn(name="fk_Food")})
     @JsonBackReference
-    private List<Food> foods = new ArrayList<>();
+    private List<Food> listFoods = new ArrayList<>();
 
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.MERGE, optional = false)
     @JoinColumn(name="ACCOUNT_ID", nullable = false)
     @JsonBackReference
     private Account account;
@@ -79,16 +81,16 @@ public class PurchaseList {
         this.PURCHASEID = PURCHASEID;
     }
 
-    public List<Food> getFoods() {
-        return foods;
+    public List<Food> getListFoods() {
+        return listFoods;
     }
 
     public Account getAccount() {
         return account;
     }
 
-    public void setFoods(List<Food> foods) {
-        this.foods = foods;
+    public void setListFoods(List<Food> foods) {
+        this.listFoods = foods;
     }
 
     public void setAccount(Account account) {
