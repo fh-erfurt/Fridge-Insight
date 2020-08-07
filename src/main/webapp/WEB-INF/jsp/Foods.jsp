@@ -41,7 +41,7 @@
                 <td>${food.foodUnit}</td>
                 <td>${food.supermarket.marketName}</td>
                 <td><a href="${update}"><img alt="delete image" style="width: 40px; height: 40px;"src="resources/images/update.png"/></a></td>
-                <td><a href="${delete}" onclick="if (!(confirm('Are you sure you want to delete this Account?'))) return false"><img alt="delete image" style="width: 40px; height: 40px;"src="resources/images/delete.png"/></a>
+                <td><a href="${delete}" onclick="if (!(confirm('Are you sure you want to delete this Food?'))) return false"><img alt="delete image" style="width: 40px; height: 40px;"src="resources/images/delete.png"/></a>
                 </td>
             </tr>
         </c:forEach>
