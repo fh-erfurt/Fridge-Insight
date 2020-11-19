@@ -3,15 +3,28 @@
   <ID>JAVA</ID>
   <OriginalElement>FridgeInsight.FridgeInsight</OriginalElement>
   <nodes>
-    <node x="0.0" y="282.0">FridgeInsight.FridgeInsight.Repository</node>
-    <node x="0.0" y="0.0">FridgeInsight.FridgeInsight.FridgeInsightApplicationTests</node>
-    <node x="0.0" y="184.0">FridgeInsight.FridgeInsight.FridgeInsightApplication</node>
+    <node x="375.0" y="0.0">FridgeInsight.FridgeInsight.Classes.Account</node>
+    <node x="58.0" y="695.0">FridgeInsight.FridgeInsight.Classes.NotificationFood</node>
+    <node x="0.0" y="0.0">FridgeInsight.FridgeInsight.Classes.Food</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="0.7392002856122812" x="1103.0" y="309.7499593562023" />
+  <edges>
+    <edge source="FridgeInsight.FridgeInsight.Classes.Food" target="FridgeInsight.FridgeInsight.Classes.NotificationFood">
+      <point x="41.25" y="322.5" />
+      <point x="206.25" y="670.0" />
+      <point x="191.75" y="670.0" />
+      <point x="26.75" y="-190.5" />
+    </edge>
+    <edge source="FridgeInsight.FridgeInsight.Classes.NotificationFood" target="FridgeInsight.FridgeInsight.Classes.Food">
+      <point x="-26.75" y="-190.5" />
+      <point x="138.25" y="670.0" />
+      <point x="123.75" y="670.0" />
+      <point x="-41.25" y="322.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="148.99999999999977" y="358.33333333333326" />
   <SelectedNodes>
-    <node>FridgeInsight.FridgeInsight.FridgeInsightApplicationTests</node>
+    <node>FridgeInsight.FridgeInsight.Classes.NotificationFood</node>
   </SelectedNodes>
   <Categories>
     <Category>Methods</Category>
